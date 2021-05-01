@@ -11,4 +11,4 @@ Highlight your code examples with highlight.js for Typemill
 code.hljs{ background: transparent; }
 ```
 ## snapshot image
-[snapshot](snapshot.png)
+![snapshot](snapshot.png)
