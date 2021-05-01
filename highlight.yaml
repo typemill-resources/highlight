@@ -14,7 +14,7 @@ forms:
   fields:
 
     theme:
-      type: radio
+      type: select
       label: Choose Your Theme
       options:
         default: default
