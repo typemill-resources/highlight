@@ -1,47 +1,24 @@
-/*!
-  Theme: Default
-  Description: Original highlight.js style
-  Author: (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
-  Maintainer: @highlightjs/core-team
-  Website: https://highlightjs.org/
-  License: see project LICENSE
-  Touched: 2021
+/*
+
+ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
+
 */
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 1em;
-  background: #F0F0F0;
-  color: #444;
+  background: white;
+  color: black;
 }
-
 
 /* Base color: saturation 0; */
 
 .hljs-subst {
-  /* default */
+  color: black;
 }
-
-/* purposely ignored */
-.hljs-formula,
-.hljs-attr,
-.hljs-property,
-.hljs-params {}
 
 .hljs-comment {
-  color: #888888;
+  color: #555555;
+  font-style: italic;
 }
-.hljs-tag,
-.hljs-punctuation {
-  color: #444a;
-}
-
-.hljs-tag .hljs-name,
-.hljs-tag .hljs-attr {
-  color: #444;
-}
-
 
 .hljs-keyword,
 .hljs-attribute,
@@ -49,27 +26,25 @@
 .hljs-meta-keyword,
 .hljs-doctag,
 .hljs-name {
+  color: #000000;
   font-weight: bold;
 }
 
 
 /* User color: hue: 0 */
 
+.hljs-string {
+  color: #000080;
+}
+
 .hljs-type,
-.hljs-string,
 .hljs-number,
 .hljs-selector-id,
 .hljs-selector-class,
 .hljs-quote,
 .hljs-template-tag,
 .hljs-deletion {
-  color: #880000;
-}
-
-.hljs-title,
-.hljs-section {
-  color: #880000;
-  font-weight: bold;
+  color: #000000;
 }
 
 .hljs-regexp,
@@ -78,24 +53,38 @@
 .hljs-template-variable,
 .hljs-link,
 .hljs-selector-attr,
-.hljs-operator,
 .hljs-selector-pseudo {
-  color: #BC6060;
+  color: #5e1700;
 }
 
 /* Language color: hue: 90; */
 
+.hljs-built_in,
 .hljs-literal {
-  color: #78A960;
+  color: #000080;
+  font-weight: bold;
 }
 
-.hljs-built_in,
 .hljs-bullet,
 .hljs-code,
 .hljs-addition {
   color: #397300;
 }
 
+.hljs-class  {
+  color: #6f1C00;
+  font-weight: bold;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #fb2c00;
+}
+
+.hljs-title>.hljs-built_in {
+  color: #008080;
+  font-weight: normal;
+}
 
 /* Meta color: hue: 200 */
 
