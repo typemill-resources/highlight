@@ -1,0 +1,50 @@
+article pre {
+	white-space: pre;
+	padding: initial;
+	display: block;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+article pre, article code {
+	font-family: Consolas;	/* monospace, Consolas, Segoe UI ... */
+}
+
+/* Fix background for hightlight plugin */
+code.hljs { 
+	display: block; 
+	padding: 1em;
+	white-space: pre-wrap;
+}
+
+/* CSS highlightjs-line-numbers.js */
+.hljs .hljs-ln table {
+	font-size: 1em;
+}
+
+.hljs .hljs-ln tr {
+	border-width: 0em;
+	font-size: 1.2em;
+	padding: 0;
+}
+
+td.hljs-ln-numbers {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	text-align: left;
+	color: #ccc;
+	border-right: 0px solid #999;
+	vertical-align: top;
+	padding-right: 0.5em !important;
+    white-space: nowrap;
+}
+
+.hljs-ln td.hljs-ln-code {
+	padding-left: 0.2em;
+	width: 100%;
+}
