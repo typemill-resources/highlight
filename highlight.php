@@ -35,8 +35,13 @@ class Highlight extends Plugin
 		}
 		
 		$this->addJS('/highlight/public/highlight.pack.js');
+		$this->addJS('/highlight/public/highlightjs-line-numbers.min.js');
 	
 		/* initialize the script */
 		$this->addInlineJS('hljs.initHighlightingOnLoad();');
+		
+		if (isset($highlightSettings['lineNumber']) && $highlightSettings['lineNumber'] == 'true') {
+			$this->addInlineJS('hljs.initLineNumbersOnLoad({ singleLine: true });');
+		}
 	}
 }

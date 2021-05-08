@@ -15,7 +15,7 @@ forms:
 
     theme:
       type: select
-      label: Choose Your Theme
+      label: Choose Your Theme (default: default)
       options:
         default: default
         a11y-dark: a11y-dark
@@ -116,3 +116,10 @@ forms:
         xcode: xcode
         xt256: xt256
         zenburn: zenburn
+        
+    lineNumber:
+      type: radio
+      label: View line numbers. (default: true)
+      options:
+        "true": "true"
+        "false": "false"
