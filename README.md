@@ -6,7 +6,7 @@ Highlight your code examples with highlight.js for Typemill
 - line number using highlightjs-line-numbers.js (`https://wcoder.github.io/highlightjs-line-numbers.js/`)
 
 ## Pretreatment
-- Remove the code below in `/theme/cyanine/css/style.css`
+- If you face problems with older theme-versions, then remove the following code from `/theme/cyanine/css/style.css`
 ```css
 /* Fix background for hightlight plugin */
 code.hljs{ background: transparent; }
