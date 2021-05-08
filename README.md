@@ -12,5 +12,8 @@ Highlight your code examples with highlight.js for Typemill
 code.hljs{ background: transparent; }
 ```
 ## snapshot image
+### Changing theme
 ![snapshot](snapshot.png)
+
+### Changing theme and enabled line number
 ![snapshot-line-number](snapshot-line-number.png)
