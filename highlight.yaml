@@ -121,3 +121,10 @@ forms:
       options:
         "true": "true"
         "false": "false"
+
+    copyButton:
+      type: radio
+      label: Show copy snippet button. (default: false)
+      options:
+        "true": "true"
+        "false": "false"

@@ -37,10 +37,14 @@ class Highlight extends Plugin
 		$this->addJS('/highlight/public/highlight.pack.js');
 		$this->addJS('/highlight/public/highlightjs-line-numbers.min.js');
 
-		/* initialize copy badge */
+		if (isset($highlightSettings['copyButton']) && $highlightSettings['copyButton'] == 'true') {
+		/* initialize copy badge 
+		https://github.com/arronhunt/highlightjs-copy
+		*/
 		$this->addCss('/highlight/public/highlightjs-copy.min.css');
 		$this->addJS('/highlight/public/highlightjs-copy.min.js');
 		$this->addInlineJs('hljs.addPlugin(new CopyButtonPlugin());');
+		}
 		/* initialize the script */
 		$this->addInlineJS('hljs.highlightAll();');
 		
