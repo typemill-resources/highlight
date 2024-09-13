@@ -1,19 +1,16 @@
 name: Highlight
-version: 1.2.0
+version: 2.0.0
 description: Highlight your code with the famous highlight.js library.
-author: Jeong-Ho, Eun
-homepage: https://highlightjs.org/
+author: Jeong-Ho, Eun, trendschau
+homepage: https://highlightjs.org
 licence: BSD
-
-settings:
-  tool: none
 
 forms:
   fields:
 
     theme:
       type: select
-      label: Choose Your Theme (default: default)
+      label: "Choose Your Theme (default: default)"
       options:
         default: default
         a11y-dark: a11y-dark
@@ -25,9 +22,9 @@ forms:
         arta: arta
         ascetic: ascetic
         atelier-cave-dark: atelier-cave-dark
-        atelier-cave-light: atelier-cave-light: atelier-cave-light: atelier-cave-light
-        atelier-dune-dark: atelier-dune-dark: atelier-dune-dark: atelier-dune-dark
-        atelier-dune-light: atelier-dune-light: atelier-dune-light: atelier-dune-light
+        atelier-cave-light: atelier-cave-light
+        atelier-dune-dark: atelier-dune-dark
+        atelier-dune-light: atelier-dune-light
         atelier-estuary-dark: atelier-estuary-dark
         atelier-estuary-light: atelier-estuary-light
         atelier-forest-dark: atelier-forest-dark
@@ -52,7 +49,6 @@ forms:
         color-brewer: color-brewer
         darcula: darcula
         dark: dark
-        default: default
         devibeans: devibeans
         docco: docco
         dracula: dracula
@@ -117,14 +113,14 @@ forms:
         
     lineNumber:
       type: radio
-      label: View line numbers. (default: true)
+      label: "View line numbers. (default: true)"
       options:
         "true": "true"
         "false": "false"
 
     copyButton:
       type: radio
-      label: Show copy snippet button. (default: false)
+      label: "Show copy snippet button. (default: false)"
       options:
         "true": "true"
         "false": "false"
