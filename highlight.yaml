@@ -3,7 +3,7 @@ version: 2.0.0
 description: Highlight your code with the famous highlight.js library.
 author: Jeong-Ho, Eun, trendschau
 homepage: https://highlightjs.org
-licence: BSD
+license: BSD
 
 forms:
   fields:
