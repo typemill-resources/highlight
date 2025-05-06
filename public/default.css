@@ -8,14 +8,27 @@
   Touched: 2021
 */
 
-.hljs {
+/*
+This is left on purpose making default.css the single file that can be lifted
+as-is from the repository directly without the need for a build step
+
+Typically this "required" baseline CSS is added by `makestuff.js` during build.
+*/
+pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 1em;
-  background: #F0F0F0;
-  color: #444;
 }
 
+code.hljs {
+  padding: 3px 5px;
+}
+/* end baseline CSS */
+
+.hljs {
+  background: #F3F3F3;
+  color: #444;
+}
 
 /* Base color: saturation 0; */
 
@@ -30,7 +43,7 @@
 .hljs-params {}
 
 .hljs-comment {
-  color: #888888;
+  color: #697070;
 }
 .hljs-tag,
 .hljs-punctuation {
@@ -46,7 +59,8 @@
 .hljs-keyword,
 .hljs-attribute,
 .hljs-selector-tag,
-.hljs-meta-keyword,
+.hljs-meta .hljs-keyword,
+
 .hljs-doctag,
 .hljs-name {
   font-weight: bold;
@@ -80,13 +94,13 @@
 .hljs-selector-attr,
 .hljs-operator,
 .hljs-selector-pseudo {
-  color: #BC6060;
+  color: #ab5656;
 }
 
 /* Language color: hue: 90; */
 
 .hljs-literal {
-  color: #78A960;
+  color: #695;
 }
 
 .hljs-built_in,
@@ -103,8 +117,8 @@
   color: #1f7199;
 }
 
-.hljs-meta-string {
-  color: #4d99bf;
+.hljs-meta .hljs-string {
+  color: #38a;
 }
 
 

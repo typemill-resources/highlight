@@ -1,5 +1,5 @@
 name: Highlight
-version: 2.0.1
+version: 2.1.0
 description: Highlight your code with the famous highlight.js library.
 author: Jeong-Ho, Eun, trendschau
 homepage: https://highlightjs.org
@@ -21,51 +21,34 @@ forms:
         arduino-light: arduino-light
         arta: arta
         ascetic: ascetic
-        atelier-cave-dark: atelier-cave-dark
-        atelier-cave-light: atelier-cave-light
-        atelier-dune-dark: atelier-dune-dark
-        atelier-dune-light: atelier-dune-light
-        atelier-estuary-dark: atelier-estuary-dark
-        atelier-estuary-light: atelier-estuary-light
-        atelier-forest-dark: atelier-forest-dark
-        atelier-forest-light: atelier-forest-light
-        atelier-heath-dark: atelier-heath-dark
-        atelier-heath-light: atelier-heath-light
-        atelier-lakeside-dark: atelier-lakeside-dark
-        atelier-lakeside-light: atelier-lakeside-light
-        atelier-plateau-dark: atelier-plateau-dark
-        atelier-plateau-light: atelier-plateau-light
-        atelier-savanna-dark: atelier-savanna-dark
-        atelier-savanna-light: atelier-savanna-light
-        atelier-seaside-dark: atelier-seaside-dark
-        atelier-seaside-light: atelier-seaside-light
-        atelier-sulphurpool-dark: atelier-sulphurpool-dark
-        atelier-sulphurpool-light: atelier-sulphurpool-light
         atom-one-dark-reasonable: atom-one-dark-reasonable
         atom-one-dark: atom-one-dark
         atom-one-light: atom-one-light
         brown-paper: brown-paper
+        brown-papersq: brown-papersq
         codepen-embed: codepen-embed
         color-brewer: color-brewer
-        darcula: darcula
+        cybertopia-cherry: cybertopia-cherry
+        cybertopia-dimmer: cybertopia-dimmer
+        cybertopia-icecap: cybertopia-icecap
+        cybertopia-saturated: cybertopia-saturated 
         dark: dark
         devibeans: devibeans
         docco: docco
-        dracula: dracula
         far: far
+        felipec: felipec
         foundation: foundation
-        github-gist: github-gist
+        github-dark-dimmed: github-dark-dimmed
+        github-dark: github-dark
         github: github
         gml: gml
         googlecode: googlecode
         gradient-dark: gradient-dark
         gradient-light: gradient-light
         grayscale: grayscale
-        gruvbox-dark: gruvbox-dark
-        gruvbox-light: gruvbox-light
-        hopscotch: hopscotch
         hybrid: hybrid
         idea: idea
+        intellij-light: intellij-light
         ir-black: ir-black
         isbl-editor-dark: isbl-editor-dark
         isbl-editor-light: isbl-editor-light
@@ -82,34 +65,33 @@ forms:
         nnfx-light: nnfx-light
         nord: nord
         obsidian: obsidian
-        ocean: ocean
+        panda-syntax-dark: panda-syntax-dark
+        panda-syntax-light: panda-syntax-light 
         paraiso-dark: paraiso-dark
         paraiso-light: paraiso-light
         pojoaque: pojoaque
         purebasic: purebasic
         qtcreator-dark: qtcreator-dark
         qtcreator-light: qtcreator-light
-        railscasts: railscasts
         rainbow: rainbow
+        rose-pine-dawn: rose-pine-dawn
+        rose-pine-moon: rose-pine-moon
+        rose-pine: rose-pine
         routeros: routeros
         school-book: school-book
         shades-of-purple: shades-of-purple
-        solarized-dark: solarized-dark
-        solarized-light: solarized-light
         srcery: srcery
         stackoverflow-dark: stackoverflow-dark
         stackoverflow-light: stackoverflow-light
         sunburst: sunburst
+        tokyo-night-dark: tokyo-night-dark
+        tokyo-night-light: tokyo-night-light
         tomorrow-night-blue: tomorrow-night-blue
         tomorrow-night-bright: tomorrow-night-bright
-        tomorrow-night-eighties: tomorrow-night-eighties
-        tomorrow-night: tomorrow-night
-        tomorrow: tomorrow
         vs: vs
         vs2015: vs2015
         xcode: xcode
         xt256: xt256
-        zenburn: zenburn
         
     lineNumber:
       type: radio
