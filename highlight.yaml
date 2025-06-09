@@ -1,5 +1,5 @@
 name: Highlight
-version: 2.1.0
+version: 2.2.0
 description: Highlight your code with the famous highlight.js library.
 author: Jeong-Ho, Eun, trendschau
 homepage: https://highlightjs.org
@@ -103,6 +103,13 @@ forms:
     copyButton:
       type: radio
       label: "Show copy snippet button. (default: false)"
+      options:
+        "true": "true"
+        "false": "false"
+
+    wordWrap:
+      type: radio
+      label: "Wrap long lines (default: false)"
       options:
         "true": "true"
         "false": "false"
