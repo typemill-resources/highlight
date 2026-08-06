@@ -5,6 +5,12 @@ author: Jeong-Ho, Eun, trendschau
 homepage: https://highlightjs.org
 license: BSD
 
+settings:
+  theme: default
+  lineNumber: "true"
+  copyButton: "false"
+  wordWrap: "false"
+
 forms:
   fields:
 
@@ -13,6 +19,7 @@ forms:
       label: "Choose Your Theme (default: default)"
       options:
         default: default
+        1c-light: 1c-light
         a11y-dark: a11y-dark
         a11y-light: a11y-light
         agate: agate
@@ -25,7 +32,6 @@ forms:
         atom-one-dark: atom-one-dark
         atom-one-light: atom-one-light
         brown-paper: brown-paper
-        brown-papersq: brown-papersq
         codepen-embed: codepen-embed
         color-brewer: color-brewer
         cybertopia-cherry: cybertopia-cherry

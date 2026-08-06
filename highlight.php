@@ -6,12 +6,12 @@ use \Typemill\Plugin;
 
 class Highlight extends Plugin
 {	
-    public static function getSubscribedEvents()
-    {
-		return array(
-			'onTwigLoaded' 			=> 'onTwigLoaded'
-		);
-    }
+	public static function getSubscribedEvents()
+	{
+		return [
+			'onTwigLoaded' => 'onTwigLoaded'
+		];
+	}
 		
 	public function onTwigLoaded()
 	{
@@ -39,9 +39,9 @@ class Highlight extends Plugin
 				/* initialize copy badge 
 				https://github.com/arronhunt/highlightjs-copy
 				*/
-				$this->addCss('/highlight/js/highlightjs-copy.min.css');
+				$this->addCSS('/highlight/js/highlightjs-copy.min.css');
 				$this->addJS('/highlight/js/highlightjs-copy.min.js');
-				$this->addInlineJs('hljs.addPlugin(new CopyButtonPlugin());');
+				$this->addInlineJS('hljs.addPlugin(new CopyButtonPlugin());');
 			}
 			/* initialize the script */
 			$this->addInlineJS('hljs.highlightAll();');
@@ -55,9 +55,9 @@ class Highlight extends Plugin
 			{
 				$this->addInlineCSS('
 					code.hljs {
-						  white-space: pre-wrap;
-						}
-					');
+						white-space: pre-wrap;
+					}
+				');
 			}
 		}
 	}
