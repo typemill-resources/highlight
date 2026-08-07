@@ -3,6 +3,7 @@ version: 2.2.0
 description: Highlight your code with the famous highlight.js library.
 author: Jeong-Ho, Eun, trendschau
 homepage: https://highlightjs.org
+repo: https://github.com/typemill-resources/highlight
 license: BSD
 
 settings:
